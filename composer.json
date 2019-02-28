@@ -1,0 +1,26 @@
+{
+  "name": "mix/websocket-daemon",
+  "description": "MixPHP WebSocket 守护程序 http://www.mixphp.cn",
+  "type": "project",
+  "keywords": [
+    "framework",
+    "mixphp",
+    "swoole"
+  ],
+  "homepage": "http://www.mixphp.cn/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jian Liu",
+      "email": "coder.liu@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mix\\WebSocket\\Daemon\\": "src/"
+    }
+  }
+}
