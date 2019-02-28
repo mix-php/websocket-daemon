@@ -4,7 +4,7 @@
 return [
 
     // 应用名称
-    'appName'          => 'mix-httpd',
+    'appName'          => 'mix-websocketd',
 
     // 应用版本
     'appVersion'       => '2.0.1-RC2',
