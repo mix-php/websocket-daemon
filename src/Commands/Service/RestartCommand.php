@@ -2,7 +2,7 @@
 
 namespace Mix\WebSocket\Daemon\Commands\Service;
 
-use Mix\Helpers\ProcessHelper;
+use Mix\Helper\ProcessHelper;
 
 /**
  * Restart 子命令
