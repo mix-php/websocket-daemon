@@ -3,13 +3,16 @@
 namespace Mix\WebSocket\Daemon\Commands\Service;
 
 /**
- * Status 子命令
+ * Class StatusCommand
+ * @package Mix\WebSocket\Daemon\Commands\Service
  * @author LIUJIAN <coder.keda@gmail.com>
  */
 class StatusCommand extends BaseCommand
 {
 
-    // 主函数
+    /**
+     * 主函数
+     */
     public function main()
     {
         $pid = $this->getServicePid();

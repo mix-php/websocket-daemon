@@ -6,7 +6,8 @@ use Mix\Console\CommandLine\Flag;
 use Mix\WebSocket\Server\WebSocketServer;
 
 /**
- * Start 子命令
+ * Class StartCommand
+ * @package Mix\WebSocket\Daemon\Commands\Service
  * @author LIUJIAN <coder.keda@gmail.com>
  */
 class StartCommand extends BaseCommand
