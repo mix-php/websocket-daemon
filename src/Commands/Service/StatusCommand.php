@@ -5,7 +5,7 @@ namespace Mix\WebSocket\Daemon\Commands\Service;
 /**
  * Class StatusCommand
  * @package Mix\WebSocket\Daemon\Commands\Service
- * @author LIUJIAN <coder.keda@gmail.com>
+ * @author liu,jian <coder.keda@gmail.com>
  */
 class StatusCommand extends BaseCommand
 {

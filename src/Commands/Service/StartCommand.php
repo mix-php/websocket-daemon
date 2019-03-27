@@ -8,7 +8,7 @@ use Mix\WebSocket\Server\WebSocketServer;
 /**
  * Class StartCommand
  * @package Mix\WebSocket\Daemon\Commands\Service
- * @author LIUJIAN <coder.keda@gmail.com>
+ * @author liu,jian <coder.keda@gmail.com>
  */
 class StartCommand extends BaseCommand
 {
