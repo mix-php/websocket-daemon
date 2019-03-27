@@ -7,7 +7,7 @@ return [
     'appName'          => 'mix-websocketd',
 
     // 应用版本
-    'appVersion'       => '2.0.1-RC5',
+    'appVersion'       => '2.0.1',
 
     // 应用调试
     'appDebug'         => env('APP_DEBUG'),
