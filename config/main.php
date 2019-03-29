@@ -101,18 +101,21 @@ return [
             ],
         ],
 
-        // 日志
+        // 日志处理器
         [
             // 类路径
-            'class'      => Mix\Log\Logger::class,
+            'class'      => Mix\Log\MultiHandler::class,
             // 属性
             'properties' => [
-                // 日志记录级别
-                'levels'  => ['emergency', 'alert', 'critical', 'error', 'warning', 'notice', 'info', 'debug'],
-                // 处理器
-                'handler' => [
+                // 标准输出处理器
+                'stdoutHandler' => [
                     // 依赖引用
                     'ref' => beanname(Mix\Log\StdoutHandler::class),
+                ],
+                // 文件处理器
+                'fileHandler'   => [
+                    // 依赖引用
+                    'ref' => beanname(Mix\Log\FileHandler::class),
                 ],
             ],
         ],
@@ -121,6 +124,12 @@ return [
         [
             // 类路径
             'class' => Mix\Log\StdoutHandler::class,
+        ],
+
+        // 日志文件处理器
+        [
+            // 类路径
+            'class' => Mix\Log\FileHandler::class,
         ],
 
     ],
