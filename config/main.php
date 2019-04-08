@@ -101,6 +101,22 @@ return [
             ],
         ],
 
+        // 日志
+        [
+            // 类路径
+            'class'      => Mix\Log\Logger::class,
+            // 属性
+            'properties' => [
+                // 日志记录级别
+                'levels'  => ['emergency', 'alert', 'critical', 'error', 'warning', 'notice', 'info', 'debug'],
+                // 处理器
+                'handler' => [
+                    // 依赖引用
+                    'ref' => beanname(Mix\Log\MultiHandler::class),
+                ],
+            ],
+        ],
+
         // 日志处理器
         [
             // 类路径
