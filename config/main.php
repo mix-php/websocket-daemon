@@ -30,7 +30,6 @@ return [
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
                 [['d', 'daemon'], 'description' => "\t" . 'Run in the background'],
-                [['u', 'update'], 'description' => "\tEnable code hot update (only sync available"],
             ],
         ],
 
@@ -48,7 +47,6 @@ return [
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
                 [['d', 'daemon'], 'description' => "\t" . 'Run in the background'],
-                [['u', 'update'], 'description' => "\tEnable code hot update (only sync available"],
             ],
         ],
 
