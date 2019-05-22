@@ -1,6 +1,6 @@
 <?php
 
-namespace Mix\WebSocket\Daemon\Commands\Service;
+namespace Mix\WebSocket\Daemon\Commands;
 
 use Mix\Console\CommandLine\Flag;
 use Mix\Console\PidFileHandler;
@@ -64,6 +64,7 @@ class BaseCommand extends AbstractObject
         }
         // 构造配置信息
         $this->config = [
+            'name'       => app()->appName,
             'host'       => $config['server']['host'],
             'port'       => $config['server']['port'],
             'configFile' => $config['application']['config_file'],

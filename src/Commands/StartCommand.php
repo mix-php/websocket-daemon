@@ -1,6 +1,6 @@
 <?php
 
-namespace Mix\WebSocket\Daemon\Commands\Service;
+namespace Mix\WebSocket\Daemon\Commands;
 
 use Mix\Console\CommandLine\Flag;
 use Mix\WebSocket\Server\WebSocketServer;

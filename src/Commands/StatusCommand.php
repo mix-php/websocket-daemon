@@ -1,6 +1,6 @@
 <?php
 
-namespace Mix\WebSocket\Daemon\Commands\Service;
+namespace Mix\WebSocket\Daemon\Commands;
 
 /**
  * Class StatusCommand
