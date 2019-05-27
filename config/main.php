@@ -26,7 +26,7 @@ return [
 
         'start' => [
             'Start',
-            'description' => "\tStart the mix-httpd service.",
+            'description' => "\tStart the mix-httpd service",
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
                 [['d', 'daemon'], 'description' => "\t" . 'Run in the background'],
@@ -35,7 +35,7 @@ return [
 
         'stop' => [
             'Stop',
-            'description' => "\tStop the mix-httpd service.",
+            'description' => "\tStop the mix-httpd service",
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
             ],
@@ -43,7 +43,7 @@ return [
 
         'restart' => [
             'Restart',
-            'description' => 'Restart the mix-httpd service.',
+            'description' => 'Restart the mix-httpd service',
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
                 [['d', 'daemon'], 'description' => "\t" . 'Run in the background'],
@@ -52,7 +52,7 @@ return [
 
         'reload' => [
             'Reload',
-            'description' => 'Reload the worker process of the mix-httpd service.',
+            'description' => 'Reload the worker process of the mix-httpd service',
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
             ],
@@ -60,7 +60,7 @@ return [
 
         'status' => [
             'Status',
-            'description' => 'Check the status of the mix-httpd service.',
+            'description' => 'Check the status of the mix-httpd service',
             'options'     => [
                 [['c', 'configuration'], 'description' => 'FILENAME -- configuration file path'],
             ],
