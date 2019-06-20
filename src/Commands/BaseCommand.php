@@ -5,7 +5,7 @@ namespace Mix\WebSocket\Daemon\Commands;
 use Mix\Console\CommandLine\Flag;
 use Mix\Console\PidFileHandler;
 use Mix\Helper\FileSystemHelper;
-use Mix\Core\Bean\AbstractObject;
+use Mix\Bean\Object\AbstractObject;
 
 /**
  * Class BaseCommand
